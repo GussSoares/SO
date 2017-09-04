@@ -1,3 +1,3 @@
-Elements file 1: ['brk', 'access', 'execve', 'read', 'munmap', 'lseek', 'geteuid', 'write', 'exit_group', 'arch_prctl', 'open', 'mprotect', 'close', 'mmap', 'fstat']
-Elements file 2: ['ioctl', 'brk', 'access', 'execve', 'read', 'munmap', 'lseek', 'geteuid', 'write', 'exit_group', 'arch_prctl', 'open', 'mprotect', 'close', 'mmap', 'fstat']
+Elements file 1: ['mmap', 'read', 'close', 'mprotect', 'brk', 'munmap', 'lseek', 'fstat', 'access', 'exit_group', 'arch_prctl', 'geteuid', 'open', 'execve', 'write']
+Elements file 2: ['mmap', 'read', 'close', 'mprotect', 'brk', 'munmap', 'ioctl', 'lseek', 'fstat', 'access', 'exit_group', 'arch_prctl', 'geteuid', 'open', 'execve', 'write']
 Infection: 6.25%

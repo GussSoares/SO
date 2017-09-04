@@ -13,8 +13,7 @@ with open("syscalls/log_syscall_cp_without_id.txt", "r") as file1, open("syscall
 
         print("Infection: ", level_infection, '%')
 
-        result.write("Elements file 1: ")
-        result.write(str(list1)+"\n")
+        result.write("Elements file 1: "+str(list1)+"\n")
         result.write("Elements file 2: ")
         result.write(str(list2)+"\n")
         result.write("Infection: ")

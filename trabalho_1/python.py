@@ -5,5 +5,5 @@ with open("log_mv_without_id.txt") as file:
         for line in file:
             result = line.split("(")[0]
             if result[1] != "+":
-                arq.write(result+"\n")
+                # arq.write(result+"\n")
                 print(result)
