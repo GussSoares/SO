@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22497bda-4b0f-4b23-a3b9-5c29fe7b9a2e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trabalho_1/testes/log_syscall_cp_without_id.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trabalho_1/testes/log_syscall_mv_without_id.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_1/relatorio de so.odt" afterPath="$PROJECT_DIR$/trabalho_1/relatorio de so.odt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_1/relatorio de so.pdf" afterPath="$PROJECT_DIR$/trabalho_1/relatorio de so.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_1/testes/teste_create_syscalls_file.py" afterPath="$PROJECT_DIR$/trabalho_1/testes/teste_create_syscalls_file.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho_1/testes/trabalho.py" afterPath="$PROJECT_DIR$/trabalho_1/testes/trabalho.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -282,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504544858961</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="so">
+      <created>1504632747908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504632747908</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
