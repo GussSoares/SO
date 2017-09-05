@@ -1,4 +1,3 @@
-
 #This function creates a log file that contains the id and system calls, of the commands cp and mv
 def _create_log_file(file="log_mv.txt",arq="teste_mv.txt"):
     with open(file,"r") as file1:
@@ -9,7 +8,10 @@ def _create_log_file(file="log_mv.txt",arq="teste_mv.txt"):
                     arq1.write(result+"\n")
                     print(result)
 
+<<<<<<< HEAD
 # _create_log_file(file="log_mv.txt", arq="teste_mv.txt")
+=======
+>>>>>>> 00da48e42a26c42e3e2d8ac74d5697976cc33e0a
 
 #This function creates a log file that contains the system calls, of the commands cp and mv
 def _create_log_without_id(file="teste_mv.txt",arq="teste_mv_without_id.txt"):
@@ -20,7 +22,10 @@ def _create_log_without_id(file="teste_mv.txt",arq="teste_mv_without_id.txt"):
                 arq1.write(result)
                 print(result)
 
+<<<<<<< HEAD
 # _create_log_without_id(file="teste_mv.txt", arq="teste_mv_without_id.txt")
+=======
+>>>>>>> 00da48e42a26c42e3e2d8ac74d5697976cc33e0a
 
 #This function creates a n-grams file of the syscalls of the commands cp and mv
 def _create_gram(n, file="teste_cp_without_id.txt", arq="n_gram_cp.txt"):
@@ -29,7 +34,10 @@ def _create_gram(n, file="teste_cp_without_id.txt", arq="n_gram_cp.txt"):
         for i in range(len(data) - n + 1):
             arq1.write(str(data[i:i+n])[1:-1].replace("\'","") + "\n")
 
+<<<<<<< HEAD
 # _create_gram(10, file="teste_cp_without_id.txt", arq="n_gram_cp.txt")
+=======
+>>>>>>> 00da48e42a26c42e3e2d8ac74d5697976cc33e0a
 
 #This function does a comparation between two files, healthy and infected
 def _compare(healthy="n_gram_cp.txt", infected="n_gram_mv.txt"):
@@ -44,4 +52,8 @@ def _compare(healthy="n_gram_cp.txt", infected="n_gram_mv.txt"):
         # print("Elements file2: "+str(arq2)+"\n")
         print("Infection: ", (len(arq2)-len(inter))/len(arq2)*100,"%")
 
+
+_create_log_file(file="log_cp.txt", arq="teste_cp.txt")
+_create_log_without_id(file="teste_cp.txt", arq="teste_cp_without_id.txt")
+_create_gram(10, file="log_syscall_mv_without_id.txt", arq="n_gram_mv.txt")
 _compare(healthy="n_gram_cp.txt", infected="n_gram_mv.txt")
