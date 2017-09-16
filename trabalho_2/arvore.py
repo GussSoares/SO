@@ -9,7 +9,7 @@ def create_gram(n, calls, gram):
         data = [x[:-1] for x in file1]
         for i in range(len(data) - n + 1):
             arq1.write(str(data[i:i + n])[1:-1].replace("\'", "") + "\n")
-            print(str(data[i:i + n])[1:-1].replace("\'", "") + "\n")
+            # print(str(data[i:i + n])[1:-1].replace("\'", "") + "\n")
 
 # gera o gram de 1 ate n
 def gerar_gram(n):
@@ -30,22 +30,17 @@ class Arvore:
             return root
 
 # Depth First Search
-# def dfs(tree, start, goal):
-#     stack = [(start, [start])]
-#     while stack:
-#         (vertex, path) = stack.pop()
-#         for next in tree[vertex] - set(path):
-#             if next == goal:
-#                 yield path + [next]
-#             else:
-#                 stack.append((next, path + [next]))
+def busca(tree, file):
+    dict = tree.make_trie(file)
+    for word in dict:
+        print (str(word) + str(dict[word]))
 
 def main():
 
     gerar_gram(12)
     arv = Arvore()
-    print (arv.make_trie("teste.txt"))
-    # list(dfs(arv, "exceve", "exit_group"))
+    busca(arv, "arquivo.txt")
+    # print (dict)
 
 if __name__ == "__main__":
     main()
