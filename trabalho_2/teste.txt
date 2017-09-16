@@ -1,0 +1,399 @@
+execve
+brk
+access
+open
+fstat
+mmap
+close
+open
+read
+fstat
+mmap
+mmap
+mprotect
+mmap
+close
+open
+read
+fstat
+mmap
+mprotect
+mmap
+close
+open
+read
+fstat
+mmap
+mprotect
+mmap
+mmap
+close
+mmap
+arch_prctl
+mprotect
+mprotect
+mprotect
+mprotect
+mprotect
+munmap
+brk
+brk
+open
+fstat
+mmap
+close
+geteuid
+open
+fstat
+read
+read
+close
+open
+open
+open
+open
+write
+write
+write
+write
+lseek
+close
+close
+close
+exit_group
+execve, brk
+brk, access
+access, open
+open, fstat
+fstat, mmap
+mmap, close
+close, open
+open, read
+read, fstat
+fstat, mmap
+mmap, mmap
+mmap, mprotect
+mprotect, mmap
+mmap, close
+close, open
+open, read
+read, fstat
+fstat, mmap
+mmap, mprotect
+mprotect, mmap
+mmap, close
+close, open
+open, read
+read, fstat
+fstat, mmap
+mmap, mprotect
+mprotect, mmap
+mmap, mmap
+mmap, close
+close, mmap
+mmap, arch_prctl
+arch_prctl, mprotect
+mprotect, mprotect
+mprotect, mprotect
+mprotect, mprotect
+mprotect, mprotect
+mprotect, munmap
+munmap, brk
+brk, brk
+brk, open
+open, fstat
+fstat, mmap
+mmap, close
+close, geteuid
+geteuid, open
+open, fstat
+fstat, read
+read, read
+read, close
+close, open
+open, open
+open, open
+open, open
+open, write
+write, write
+write, write
+write, write
+write, lseek
+lseek, close
+close, close
+close, close
+close, exit_group
+execve, brk, access
+brk, access, open
+access, open, fstat
+open, fstat, mmap
+fstat, mmap, close
+mmap, close, open
+close, open, read
+open, read, fstat
+read, fstat, mmap
+fstat, mmap, mmap
+mmap, mmap, mprotect
+mmap, mprotect, mmap
+mprotect, mmap, close
+mmap, close, open
+close, open, read
+open, read, fstat
+read, fstat, mmap
+fstat, mmap, mprotect
+mmap, mprotect, mmap
+mprotect, mmap, close
+mmap, close, open
+close, open, read
+open, read, fstat
+read, fstat, mmap
+fstat, mmap, mprotect
+mmap, mprotect, mmap
+mprotect, mmap, mmap
+mmap, mmap, close
+mmap, close, mmap
+close, mmap, arch_prctl
+mmap, arch_prctl, mprotect
+arch_prctl, mprotect, mprotect
+mprotect, mprotect, mprotect
+mprotect, mprotect, mprotect
+mprotect, mprotect, mprotect
+mprotect, mprotect, munmap
+mprotect, munmap, brk
+munmap, brk, brk
+brk, brk, open
+brk, open, fstat
+open, fstat, mmap
+fstat, mmap, close
+mmap, close, geteuid
+close, geteuid, open
+geteuid, open, fstat
+open, fstat, read
+fstat, read, read
+read, read, close
+read, close, open
+close, open, open
+open, open, open
+open, open, open
+open, open, write
+open, write, write
+write, write, write
+write, write, write
+write, write, lseek
+write, lseek, close
+lseek, close, close
+close, close, close
+close, close, exit_group
+execve, brk, access, open
+brk, access, open, fstat
+access, open, fstat, mmap
+open, fstat, mmap, close
+fstat, mmap, close, open
+mmap, close, open, read
+close, open, read, fstat
+open, read, fstat, mmap
+read, fstat, mmap, mmap
+fstat, mmap, mmap, mprotect
+mmap, mmap, mprotect, mmap
+mmap, mprotect, mmap, close
+mprotect, mmap, close, open
+mmap, close, open, read
+close, open, read, fstat
+open, read, fstat, mmap
+read, fstat, mmap, mprotect
+fstat, mmap, mprotect, mmap
+mmap, mprotect, mmap, close
+mprotect, mmap, close, open
+mmap, close, open, read
+close, open, read, fstat
+open, read, fstat, mmap
+read, fstat, mmap, mprotect
+fstat, mmap, mprotect, mmap
+mmap, mprotect, mmap, mmap
+mprotect, mmap, mmap, close
+mmap, mmap, close, mmap
+mmap, close, mmap, arch_prctl
+close, mmap, arch_prctl, mprotect
+mmap, arch_prctl, mprotect, mprotect
+arch_prctl, mprotect, mprotect, mprotect
+mprotect, mprotect, mprotect, mprotect
+mprotect, mprotect, mprotect, mprotect
+mprotect, mprotect, mprotect, munmap
+mprotect, mprotect, munmap, brk
+mprotect, munmap, brk, brk
+munmap, brk, brk, open
+brk, brk, open, fstat
+brk, open, fstat, mmap
+open, fstat, mmap, close
+fstat, mmap, close, geteuid
+mmap, close, geteuid, open
+close, geteuid, open, fstat
+geteuid, open, fstat, read
+open, fstat, read, read
+fstat, read, read, close
+read, read, close, open
+read, close, open, open
+close, open, open, open
+open, open, open, open
+open, open, open, write
+open, open, write, write
+open, write, write, write
+write, write, write, write
+write, write, write, lseek
+write, write, lseek, close
+write, lseek, close, close
+lseek, close, close, close
+close, close, close, exit_group
+execve, brk, access, open, fstat
+brk, access, open, fstat, mmap
+access, open, fstat, mmap, close
+open, fstat, mmap, close, open
+fstat, mmap, close, open, read
+mmap, close, open, read, fstat
+close, open, read, fstat, mmap
+open, read, fstat, mmap, mmap
+read, fstat, mmap, mmap, mprotect
+fstat, mmap, mmap, mprotect, mmap
+mmap, mmap, mprotect, mmap, close
+mmap, mprotect, mmap, close, open
+mprotect, mmap, close, open, read
+mmap, close, open, read, fstat
+close, open, read, fstat, mmap
+open, read, fstat, mmap, mprotect
+read, fstat, mmap, mprotect, mmap
+fstat, mmap, mprotect, mmap, close
+mmap, mprotect, mmap, close, open
+mprotect, mmap, close, open, read
+mmap, close, open, read, fstat
+close, open, read, fstat, mmap
+open, read, fstat, mmap, mprotect
+read, fstat, mmap, mprotect, mmap
+fstat, mmap, mprotect, mmap, mmap
+mmap, mprotect, mmap, mmap, close
+mprotect, mmap, mmap, close, mmap
+mmap, mmap, close, mmap, arch_prctl
+mmap, close, mmap, arch_prctl, mprotect
+close, mmap, arch_prctl, mprotect, mprotect
+mmap, arch_prctl, mprotect, mprotect, mprotect
+arch_prctl, mprotect, mprotect, mprotect, mprotect
+mprotect, mprotect, mprotect, mprotect, mprotect
+mprotect, mprotect, mprotect, mprotect, munmap
+mprotect, mprotect, mprotect, munmap, brk
+mprotect, mprotect, munmap, brk, brk
+mprotect, munmap, brk, brk, open
+munmap, brk, brk, open, fstat
+brk, brk, open, fstat, mmap
+brk, open, fstat, mmap, close
+open, fstat, mmap, close, geteuid
+fstat, mmap, close, geteuid, open
+mmap, close, geteuid, open, fstat
+close, geteuid, open, fstat, read
+geteuid, open, fstat, read, read
+open, fstat, read, read, close
+fstat, read, read, close, open
+read, read, close, open, open
+read, close, open, open, open
+close, open, open, open, open
+open, open, open, open, write
+open, open, open, write, write
+open, open, write, write, write
+open, write, write, write, write
+write, write, write, write, lseek
+write, write, write, lseek, close
+write, write, lseek, close, close
+write, lseek, close, close, close
+lseek, close, close, close, exit_group
+execve, brk, access, open, fstat, mmap
+brk, access, open, fstat, mmap, close
+access, open, fstat, mmap, close, open
+open, fstat, mmap, close, open, read
+fstat, mmap, close, open, read, fstat
+mmap, close, open, read, fstat, mmap
+close, open, read, fstat, mmap, mmap
+open, read, fstat, mmap, mmap, mprotect
+read, fstat, mmap, mmap, mprotect, mmap
+fstat, mmap, mmap, mprotect, mmap, close
+mmap, mmap, mprotect, mmap, close, open
+mmap, mprotect, mmap, close, open, read
+mprotect, mmap, close, open, read, fstat
+mmap, close, open, read, fstat, mmap
+close, open, read, fstat, mmap, mprotect
+open, read, fstat, mmap, mprotect, mmap
+read, fstat, mmap, mprotect, mmap, close
+fstat, mmap, mprotect, mmap, close, open
+mmap, mprotect, mmap, close, open, read
+mprotect, mmap, close, open, read, fstat
+mmap, close, open, read, fstat, mmap
+close, open, read, fstat, mmap, mprotect
+open, read, fstat, mmap, mprotect, mmap
+read, fstat, mmap, mprotect, mmap, mmap
+fstat, mmap, mprotect, mmap, mmap, close
+mmap, mprotect, mmap, mmap, close, mmap
+mprotect, mmap, mmap, close, mmap, arch_prctl
+mmap, mmap, close, mmap, arch_prctl, mprotect
+mmap, close, mmap, arch_prctl, mprotect, mprotect
+close, mmap, arch_prctl, mprotect, mprotect, mprotect
+mmap, arch_prctl, mprotect, mprotect, mprotect, mprotect
+arch_prctl, mprotect, mprotect, mprotect, mprotect, mprotect
+mprotect, mprotect, mprotect, mprotect, mprotect, munmap
+mprotect, mprotect, mprotect, mprotect, munmap, brk
+mprotect, mprotect, mprotect, munmap, brk, brk
+mprotect, mprotect, munmap, brk, brk, open
+mprotect, munmap, brk, brk, open, fstat
+munmap, brk, brk, open, fstat, mmap
+brk, brk, open, fstat, mmap, close
+brk, open, fstat, mmap, close, geteuid
+open, fstat, mmap, close, geteuid, open
+fstat, mmap, close, geteuid, opexecve, brk, access, open, fstat, mmap, close, open, read, fstat, mmap
+brk, access, open, fstat, mmap, close, open, read, fstat, mmap, mmap
+access, open, fstat, mmap, close, open, read, fstat, mmap, mmap, mprotect
+open, fstat, mmap, close, open, read, fstat, mmap, mmap, mprotect, mmap
+fstat, mmap, close, open, read, fstat, mmap, mmap, mprotect, mmap, close
+mmap, close, open, read, fstat, mmap, mmap, mprotect, mmap, close, open
+close, open, read, fstat, mmap, mmap, mprotect, mmap, close, open, read
+open, read, fstat, mmap, mmap, mprotect, mmap, close, open, read, fstat
+read, fstat, mmap, mmap, mprotect, mmap, close, open, read, fstat, mmap
+fstat, mmap, mmap, mprotect, mmap, close, open, read, fstat, mmap, mprotect
+mmap, mmap, mprotect, mmap, close, open, read, fstat, mmap, mprotect, mmap
+mmap, mprotect, mmap, close, open, read, fstat, mmap, mprotect, mmap, close
+mprotect, mmap, close, open, read, fstat, mmap, mprotect, mmap, close, open
+mmap, close, open, read, fstat, mmap, mprotect, mmap, close, open, read
+close, open, read, fstat, mmap, mprotect, mmap, close, open, read, fstat
+open, read, fstat, mmap, mprotect, mmap, close, open, read, fstat, mmap
+read, fstat, mmap, mprotect, mmap, close, open, read, fstat, mmap, mprotect
+fstat, mmap, mprotect, mmap, close, open, read, fstat, mmap, mprotect, mmap
+mmap, mprotect, mmap, close, open, read, fstat, mmap, mprotect, mmap, mmap
+mprotect, mmap, close, open, read, fstat, mmap, mprotect, mmap, mmap, close
+mmap, close, open, read, fstat, mmap, mprotect, mmap, mmap, close, mmap
+close, open, read, fstat, mmap, mprotect, mmap, mmap, close, mmap, arch_prctl
+open, read, fstat, mmap, mprotect, mmap, mmap, close, mmap, arch_prctl, mprotect
+read, fstat, mmap, mprotect, mmap, mmap, close, mmap, arch_prctl, mprotect, mprotect
+fstat, mmap, mprotect, mmap, mmap, close, mmap, arch_prctl, mprotect, mprotect, mprotect
+mmap, mprotect, mmap, mmap, close, mmap, arch_prctl, mprotect, mprotect, mprotect, mprotect
+mprotect, mmap, mmap, close, mmap, arch_prctl, mprotect, mprotect, mprotect, mprotect, mprotect
+mmap, mmap, close, mmap, arch_prctl, mprotect, mprotect, mprotect, mprotect, mprotect, munmap
+mmap, close, mmap, arch_prctl, mprotect, mprotect, mprotect, mprotect, mprotect, munmap, brk
+close, mmap, arch_prctl, mprotect, mprotect, mprotect, mprotect, mprotect, munmap, brk, brk
+mmap, arch_prctl, mprotect, mprotect, mprotect, mprotect, mprotect, munmap, brk, brk, open
+arch_prctl, mprotect, mprotect, mprotect, mprotect, mprotect, munmap, brk, brk, open, fstat
+mprotect, mprotect, mprotect, mprotect, mprotect, munmap, brk, brk, open, fstat, mmap
+mprotect, mprotect, mprotect, mprotect, munmap, brk, brk, open, fstat, mmap, close
+mprotect, mprotect, mprotect, munmap, brk, brk, open, fstat, mmap, close, geteuid
+mprotect, mprotect, munmap, brk, brk, open, fstat, mmap, close, geteuid, open
+mprotect, munmap, brk, brk, open, fstat, mmap, close, geteuid, open, fstat
+munmap, brk, brk, open, fstat, mmap, close, geteuid, open, fstat, read
+brk, brk, open, fstat, mmap, close, geteuid, open, fstat, read, read
+brk, open, fstat, mmap, close, geteuid, open, fstat, read, read, close
+open, fstat, mmap, close, geteuid, open, fstat, read, read, close, open
+fstat, mmap, close, geteuid, open, fstat, read, read, close, open, open
+mmap, close, geteuid, open, fstat, read, read, close, open, open, open
+close, geteuid, open, fstat, read, read, close, open, open, open, open
+geteuid, open, fstat, read, read, close, open, open, open, open, write
+open, fstat, read, read, close, open, open, open, open, write, write
+fstat, read, read, close, open, open, open, open, write, write, write
+read, read, close, open, open, open, open, write, write, write, write
+read, close, open, open, open, open, write, write, write, write, lseek
+close, open, open, open, open, write, write, write, write, lseek, close
+open, open, open, open, write, write, write, write, lseek, close, close
+open, open, open, write, write, write, write, lseek, close, close, close
+open, open, write, write, write, write, lseek, close, close, close, exit_group
