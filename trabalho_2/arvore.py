@@ -30,17 +30,19 @@ class Arvore:
             return root
 
 # Depth First Search
-def busca(tree, file):
-    dict = tree.make_trie(file)
-    for word in dict:
-        print (str(word) + str(dict[word]))
+def busca(dict):
+
+    # for word in dict:
+    #     print(word)
+
 
 def main():
 
     gerar_gram(12)
     arv = Arvore()
-    busca(arv, "arquivo.txt")
-    # print (dict)
+    dict = arv.make_trie("arquivo.txt")
+    busca(dict)
+    # print (arv.make_trie("arquivo.txt"))
 
 if __name__ == "__main__":
     main()

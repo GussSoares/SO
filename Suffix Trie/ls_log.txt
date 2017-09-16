@@ -1,0 +1,95 @@
+[00007f6681432767] execve("/bin/ls", ["ls"], [/* 61 vars */]) = 0
+[00007f30122d7979] brk(NULL)            = 0x55d0a3652000
+[00007f30122d8827] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[00007f30122d891a] mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f30124df000
+[00007f30122d8827] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[00007f30122d87c7] open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+[00007f30122d8752] fstat(3, {st_mode=S_IFREG|0644, st_size=112468, ...}) = 0
+[00007f30122d891a] mmap(NULL, 112468, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f30124c3000
+[00007f30122d88c7] close(3)             = 0
+[00007f30122d8827] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[00007f30122d87c7] open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+[00007f30122d87e7] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pa\0\0\0\0\0\0"..., 832) = 832
+[00007f30122d8752] fstat(3, {st_mode=S_IFREG|0644, st_size=154904, ...}) = 0
+[00007f30122d891a] mmap(NULL, 2259152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3012095000
+[00007f30122d89b7] mprotect(0x7f30120ba000, 2093056, PROT_NONE) = 0
+[00007f30122d891a] mmap(0x7f30122b9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7f30122b9000
+[00007f30122d891a] mmap(0x7f30122bb000, 6352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f30122bb000
+[00007f30122d88c7] close(3)             = 0
+[00007f30122d8827] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[00007f30122d87c7] open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+[00007f30122d87e7] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\5\2\0\0\0\0\0"..., 832) = 832
+[00007f30122d8752] fstat(3, {st_mode=S_IFREG|0755, st_size=1856752, ...}) = 0
+[00007f30122d891a] mmap(NULL, 3959200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3011cce000
+[00007f30122d89b7] mprotect(0x7f3011e8c000, 2093056, PROT_NONE) = 0
+[00007f30122d891a] mmap(0x7f301208b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7f301208b000
+[00007f30122d891a] mmap(0x7f3012091000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3012091000
+[00007f30122d88c7] close(3)             = 0
+[00007f30122d8827] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[00007f30122d87c7] open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+[00007f30122d87e7] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\24\0\0\0\0\0\0"..., 832) = 832
+[00007f30122d8752] fstat(3, {st_mode=S_IFREG|0644, st_size=468920, ...}) = 0
+[00007f30122d891a] mmap(NULL, 2564360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3011a5b000
+[00007f30122d89b7] mprotect(0x7f3011acd000, 2093056, PROT_NONE) = 0
+[00007f30122d891a] mmap(0x7f3011ccc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x71000) = 0x7f3011ccc000
+[00007f30122d88c7] close(3)             = 0
+[00007f30122d8827] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[00007f30122d87c7] open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+[00007f30122d87e7] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\r\0\0\0\0\0\0"..., 832) = 832
+[00007f30122d8752] fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+[00007f30122d891a] mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3011857000
+[00007f30122d89b7] mprotect(0x7f301185a000, 2093056, PROT_NONE) = 0
+[00007f30122d891a] mmap(0x7f3011a59000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f3011a59000
+[00007f30122d88c7] close(3)             = 0
+[00007f30122d8827] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[00007f30122d87c7] open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+[00007f30122d87e7] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240`\0\0\0\0\0\0"..., 832) = 832
+[00007f30122d8752] fstat(3, {st_mode=S_IFREG|0755, st_size=142400, ...}) = 0
+[00007f30122d891a] mmap(NULL, 2217000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3011639000
+[00007f30122d89b7] mprotect(0x7f3011651000, 2097152, PROT_NONE) = 0
+[00007f30122d891a] mmap(0x7f3011851000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7f3011851000
+[00007f30122d891a] mmap(0x7f3011853000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3011853000
+[00007f30122d88c7] close(3)             = 0
+[00007f30122d891a] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f30124c1000
+[00007f30122bdbb8] arch_prctl(ARCH_SET_FS, 0x7f30124c23c0) = 0
+[00007f30122d89b7] mprotect(0x7f301208b000, 16384, PROT_READ) = 0
+[00007f30122d89b7] mprotect(0x7f3011851000, 4096, PROT_READ) = 0
+[00007f30122d89b7] mprotect(0x7f3011a59000, 4096, PROT_READ) = 0
+[00007f30122d89b7] mprotect(0x7f3011ccc000, 4096, PROT_READ) = 0
+[00007f30122d89b7] mprotect(0x7f30122b9000, 4096, PROT_READ) = 0
+[00007f30122d89b7] mprotect(0x55d0a2a0b000, 4096, PROT_READ) = 0
+[00007f30122d89b7] mprotect(0x7f30124e2000, 4096, PROT_READ) = 0
+[00007f30122d8997] munmap(0x7f30124c3000, 112468) = 0
+[00007f301163ed12] set_tid_address(0x7f30124c2690) = 26762
+[00007f301163ed7a] set_robust_list(0x7f30124c26a0, 24) = 0
+[00007f301164a76e] rt_sigaction(SIGRTMIN, {0x7f301163eb40, [], SA_RESTORER|SA_SIGINFO, 0x7f301164a670}, NULL, 8) = 0
+[00007f301164a76e] rt_sigaction(SIGRT_1, {0x7f301163ebd0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f301164a670}, NULL, 8) = 0
+[00007f301163ee56] rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+[00007f3011dcbfb7] getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+[00007f3011dc6417] statfs("/sys/fs/selinux", 0x7ffed2531cf0) = -1 ENOENT (No such file or directory)
+[00007f3011dc6417] statfs("/selinux", 0x7ffed2531cf0) = -1 ENOENT (No such file or directory)
+[00007f3011dcc459] brk(NULL)            = 0x55d0a3652000
+[00007f3011dcc459] brk(0x55d0a3673000)  = 0x55d0a3673000
+[00007f3011dc6670] open("/proc/filesystems", O_RDONLY) = 3
+[00007f3011dc6262] fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+[00007f3011dc6890] read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 358
+[00007f3011dc6890] read(3, "", 1024)    = 0
+[00007f3011d47f5b] close(3)             = 0
+[00007f3011dc6947] access("/etc/selinux/config", F_OK) = -1 ENOENT (No such file or directory)
+[00007f3011cfa7cf] open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+[00007f3011dc6262] fstat(3, {st_mode=S_IFREG|0644, st_size=2997712, ...}) = 0
+[00007f3011dd0bda] mmap(NULL, 2997712, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f301135d000
+[00007f3011cfa881] close(3)             = 0
+[00007f3011dcbcfa] ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+[00007f3011dcc587] ioctl(1, TIOCGWINSZ, {ws_row=41, ws_col=150, ws_xpixel=0, ws_ypixel=0}) = 0
+[00007f3011d96790] open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+[00007f3011dc6262] fstat(3, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+[00007f3011d96f0b] getdents(3, /* 7 entries */, 32768) = 216
+[00007f3011d96f0b] getdents(3, /* 0 entries */, 32768) = 0
+[00007f3011d969f7] close(3)             = 0
+[00007f3011dc6262] fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+[00007f3011dc68f0] write(1, "ls_log.txt  main.py  slidingWind"..., 45) = 45
+[00007f3011d47f5b] close(1)             = 0
+[00007f3011d47f5b] close(2)             = 0
+[00007f3011d9b738] exit_group(0)        = ?
+[????????????????] +++ exited with 0 +++

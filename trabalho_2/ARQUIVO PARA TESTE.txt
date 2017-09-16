@@ -1,38 +1,6 @@
 {'foo,': {'bar,': {'baz,': {'barz,': {}}}}, 'bar,': {'baz,': {'barz,': {'tec,': {}}}, 'teste,': {'come,': {'dorme': {}}}}, 'baz,': {'barz,': {'tec,': {'no,': {}}}}}
 
 
-			foo
-		bar
-	baz
-barz
-
-
-
-			bar
-		baz
-	barz
-tec
-
-
-
-			teste
-		come
-	dorme
-
-
-
-
-			baz
-		barz
-	tec
-no
-
-
-
-
-
-
-
 
 			foo
 		bar
@@ -40,9 +8,9 @@ no
 barz
 
 			bar
-		baz		teste
-	barz				come
-tec						dorme
+		baz		teste           local
+	barz		      come          data             duas
+tec				           dorme         hora             tres
 
 			baz
 		barz
